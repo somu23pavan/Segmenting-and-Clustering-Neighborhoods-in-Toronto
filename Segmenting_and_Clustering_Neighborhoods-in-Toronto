@@ -4,3 +4,5 @@ website_url = requests.get('https://en.wikipedia.org/wiki/List_of_postal_codes_o
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(website_url,'lxml')
 print(soup.prettify())
+
+
